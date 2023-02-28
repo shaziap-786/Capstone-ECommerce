@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { useEffect, useState } from "react";
 import { Button, Col, Form, Image, ListGroup, Row } from "react-bootstrap";
 import { AiFillDelete } from "react-icons/ai";

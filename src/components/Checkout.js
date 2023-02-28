@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { Button, Col, Form, Image, ListGroup, Row,Alert } from "react-bootstrap";
+
 
 import { CartState } from "../context/Context";
 // import swal from 'sweetalert';
-import { useHistory } from 'react-router-dom';
+
 
 const Checkout = () => {
 
@@ -15,9 +15,9 @@ const Checkout = () => {
 
   const {
     state: { cart },
-    dispatch,
+    
   } = CartState();
-  const [total, setTotal] = useState();
+  const [, setTotal] = useState();
 
   useEffect(() => {
     setTotal(
